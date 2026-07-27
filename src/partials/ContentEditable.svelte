@@ -89,7 +89,7 @@
     {placeholder || ""}
   </div>
   <div
-    style={$$props.style || "min-height: 6rem"}
+    style={`overflow-wrap: anywhere; ${$$props.style || "min-height: 6rem"}`}
     class={cx($$props.class, "w-full min-w-0 whitespace-pre-line outline-0")}
     {autofocus}
     contenteditable
